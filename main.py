@@ -15,8 +15,8 @@ class Calculator:
         except Exception as err:
             print(f"Klaida: {err}")
 
-    def mul(self) -> float:
-        ...
+    def mul(self, new_number) -> float:
+        return self.number * new_number
 
     def calculate(self) -> float:
         ...
